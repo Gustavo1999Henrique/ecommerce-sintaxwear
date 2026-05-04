@@ -31,6 +31,14 @@ select {
   font: inherit;
 }
 
+a{
+  text-decoration: none;
+}
+
+ul,ol {
+  list-style: none;
+}
+
 p,
 h1,
 h2,
