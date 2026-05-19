@@ -3,18 +3,18 @@
     /* gerar o efeito do menu estar sobreposto ao banner. */
     position: fixed;
     /* Centralizar o  menu horizontalmente */
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
     /* Dando uma largura para o menu, ele ocupa 100% da largura da tela, mas com um recuo de 20px em cada lado, totalizando 40px de acordo como o figma. */
-    width: calc(100% - 40px);
+    width: calc(100% - 210px);
     border-radius: 15px;
     /* Quando utilizamos o position é interessante usar o z-index para garantir que o elemento fique acima dos outros elementos da página, evitando que ele seja ocultado por outros elementos. O eixo z é a profundidade. */
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.225rem 1.25rem;
+    padding: 0.265rem 1.25rem;
     background-color: #ffffff;
 }
 
